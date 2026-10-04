@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jack Beckett — Mechanical Engineer</title>
+  <meta name="description" content="Final-year Mechanical Engineering student at RMIT University (graduating Dec 2026), seeking graduate mechanical engineering roles in Melbourne. CFD, experimental fluids, controls, FEA and renewable energy projects.">
+  <meta property="og:title" content="Jack Beckett — Mechanical Engineer">
+  <meta property="og:description" content="Graduate mechanical engineer: CFD & PIV, controls & robotics, FEA, solar PV modelling.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b0e12">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a href="#top" class="nav__brand" aria-label="Home">
+        <span class="nav__mark">JB</span><span class="nav__name">Jack Beckett</span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav__menu" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/docs/Jack-Beckett-CV.pdf" class="btn btn--sm" download>CV ↓</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <canvas class="hero__flow" aria-hidden="true"></canvas>
+      <div class="wrap hero__inner">
+        <p class="eyebrow mono">// Mechanical Engineering · RMIT University · Grad. Dec 2026</p>
+        <h1 class="hero__title">Jack Beckett</h1>
+        <p class="hero__pitch">
+          Mechanical engineer who closes the loop between <em>simulation</em> and
+          <em>the real thing</em> — CFD validated against PIV, controllers tuned on hardware,
+          designs proven with FEA.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn">View projects</a>
+          <a href="assets/docs/Jack-Beckett-CV.pdf" class="btn btn--ghost" download>Download CV</a>
+        </div>
+        <dl class="hero__stats mono">
+          <div><dt>Location</dt><dd>Melbourne, VIC</dd></div>
+          <div><dt>Seeking</dt><dd>Graduate ME roles · 2027</dd></div>
+          <div><dt>Status</dt><dd><span class="dot"></span>Available</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="wrap grid-2">
+        <header class="section__head">
+          <p class="eyebrow mono">01 / About</p>
+          <h2>Engineer first. Tool-agnostic. Evidence-driven.</h2>
+        </header>
+        <div class="prose">
+          <p>
+            I'm a final-year Bachelor of Engineering (Mechanical) student at RMIT University,
+            graduating in December 2026. My work sits where fluids, controls and design overlap:
+            my capstone pairs ANSYS Fluent CFD with a closed-loop particle image velocimetry rig
+            I helped build, and I've written controllers that run on real robots, not just in plots.
+          </p>
+          <p>
+            Alongside study I've spent two years at Coles, where I learnt the parts of engineering
+            no lecture covers — working to a schedule, communicating with a team under pressure,
+            and doing the job safely and properly every time.
+          </p>
+          <p>
+            I'm looking for a <strong>graduate mechanical engineering role in Melbourne</strong>
+            — in design, energy, manufacturing, infrastructure or R&amp;D — where I can learn fast
+            from experienced engineers and contribute from week one.
+          </p>
+          <!-- EDIT ME: add a sentence about what specifically excites you (industry, sector, company type) -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section--alt" id="projects">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow mono">02 / Projects</p>
+          <h2>Selected work</h2>
+          <p class="section__lede">Each project: the problem, how I approached it, and what came out the other end.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="fluids">Fluids &amp; CFD</button>
+          <button class="chip" data-filter="controls">Controls &amp; Robotics</button>
+          <button class="chip" data-filter="design">Design &amp; FEA</button>
+          <button class="chip" data-filter="energy">Energy</button>
+        </div>
+
+        <div class="projects">
+
+          <!-- ===== PROJECT 1 — CAPSTONE ===== -->
+          <article class="project project--feature" data-tags="fluids">
+            <figure class="project__media">
+              <!-- EDIT ME: swap for a real photo of the rig, e.g. assets/img/piv-rig.jpg -->
+              <img src="assets/img/piv-rig.svg" alt="Schematic of closed-loop PIV flow rig with S-bend test section and stenosis insert" loading="lazy" width="800" height="500">
+            </figure>
+            <div class="project__body">
+              <p class="project__tag mono">Capstone · 2026 · Team project</p>
+              <h3>Closed-loop PIV flow rig — S-bend with stenosis inserts</h3>
+              <dl class="pars">
+                <div><dt>Problem</dt><dd>Flow through curved, narrowed vessels (e.g. stenosed arteries) produces secondary flows and recirculation that are hard to predict. CFD models need experimental data to be trusted.</dd></div>
+                <div><dt>Approach</dt><dd>Designed and built a closed-loop water rig with a transparent S-bend test section and interchangeable stenosis inserts. Measured velocity fields with particle image velocimetry (PIV) and ran matching ANSYS Fluent simulations to compare against.</dd></div>
+                <div><dt>Result</dt><dd class="todo">[Add key results — e.g. "CFD centreline velocity within X% of PIV", "identified recirculation length of Y mm downstream of 50% stenosis", Reynolds number range tested.]</dd></div>
+              </dl>
+              <ul class="tools mono"><li>ANSYS Fluent</li><li>PIV</li><li>SolidWorks</li><li>MATLAB</li><li>Rig design</li></ul>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT 2 — ROS2 ROBOT ===== -->
+          <article class="project" data-tags="controls">
+            <figure class="project__media">
+              <img src="assets/img/ros2-robot.svg" alt="Diagram of line-following robot with PID control loop" loading="lazy" width="800" height="500">
+            </figure>
+            <div class="project__body">
+              <p class="project__tag mono">Robotics · ROS2</p>
+              <h3>ROS2 PID line-following robot</h3>
+              <dl class="pars">
+                <div><dt>Problem</dt><dd>Get a mobile robot to track a line quickly and smoothly without oscillating off the track on curves.</dd></div>
+                <div><dt>Approach</dt><dd>Built a ROS2 node pipeline — sensor input → error calculation → PID controller → wheel velocity commands — and tuned gains iteratively on the real robot.</dd></div>
+                <div><dt>Result</dt><dd class="todo">[Add key results — e.g. lap time, max tracking error, final Kp/Ki/Kd, how overshoot was reduced.]</dd></div>
+              </dl>
+              <ul class="tools mono"><li>ROS2</li><li>Python</li><li>PID</li><li>Linux</li></ul>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT 3 — MATLAB AV ===== -->
+          <article class="project" data-tags="controls">
+            <figure class="project__media">
+              <img src="assets/img/matlab-av.svg" alt="Top-down simulation of autonomous vehicle path with obstacle and parking bay" loading="lazy" width="800" height="500">
+            </figure>
+            <div class="project__body">
+              <p class="project__tag mono">Simulation · MATLAB</p>
+              <h3>Autonomous vehicle simulation</h3>
+              <dl class="pars">
+                <div><dt>Problem</dt><dd>Develop the decision and control logic for a vehicle that follows a lane, avoids obstacles and parks itself — before any hardware exists.</dd></div>
+                <div><dt>Approach</dt><dd>Modelled vehicle kinematics in MATLAB and built three behaviours on top: line tracking, obstacle detection and avoidance, and a smart-parking manoeuvre into a bay.</dd></div>
+                <div><dt>Result</dt><dd class="todo">[Add key results — e.g. tracking error, successful parking rate, scenarios tested.]</dd></div>
+              </dl>
+              <ul class="tools mono"><li>MATLAB</li><li>Simulink</li><li>Path planning</li><li>Kinematics</li></ul>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT 4 — SOLAR PV ===== -->
+          <article class="project" data-tags="energy">
+            <figure class="project__media">
+              <img src="assets/img/pv-system.svg" alt="Rooftop solar array with monthly generation chart" loading="lazy" width="800" height="500">
+            </figure>
+            <div class="project__body">
+              <p class="project__tag mono">Renewable energy · SAM</p>
+              <h3>7.2 kW residential PV system</h3>
+              <dl class="pars">
+                <div><dt>Problem</dt><dd>Size and assess a residential rooftop solar system — how much energy will it produce, and does it pay for itself?</dd></div>
+                <div><dt>Approach</dt><dd>Modelled a 7.2 kW array in NREL's System Advisor Model (SAM) using local weather data, panel and inverter specs, tilt/azimuth and losses, then ran the financial model.</dd></div>
+                <div><dt>Result</dt><dd class="todo">[Add key results — e.g. annual yield (kWh), capacity factor, payback period, LCOE.]</dd></div>
+              </dl>
+              <ul class="tools mono"><li>NREL SAM</li><li>Excel</li><li>Energy modelling</li></ul>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT 5 — FEA PEDAL ===== -->
+          <article class="project" data-tags="design">
+            <figure class="project__media">
+              <img src="assets/img/fea-pedal.svg" alt="Pedal geometry with von Mises stress contour" loading="lazy" width="800" height="500">
+            </figure>
+            <div class="project__body">
+              <p class="project__tag mono">Design · FEA</p>
+              <h3>FEA pedal design</h3>
+              <dl class="pars">
+                <div><dt>Problem</dt><dd>Design a pedal that survives worst-case driver loads with an adequate safety factor while staying light.</dd></div>
+                <div><dt>Approach</dt><dd>Modelled the pedal in CAD, applied load cases and boundary conditions, ran static FEA with a mesh-convergence check, and iterated geometry to remove material from low-stress regions.</dd></div>
+                <div><dt>Result</dt><dd class="todo">[Add key results — e.g. max von Mises stress, factor of safety, % mass reduction.]</dd></div>
+              </dl>
+              <ul class="tools mono"><li>SolidWorks</li><li>ANSYS Mechanical</li><li>FEA</li></ul>
+            </div>
+          </article>
+
+          <!-- ===== EMPTY SLOT — copy a project block above into here ===== -->
+          <article class="project project--empty" data-tags="all">
+            <div class="project__body">
+              <p class="project__tag mono">Slot 06</p>
+              <h3>Your next project</h3>
+              <p>Space reserved for another project — copy any project block in <code>index.html</code> and replace this one.</p>
+            </div>
+          </article>
+          <article class="project project--empty" data-tags="all">
+            <div class="project__body">
+              <p class="project__tag mono">Slot 07</p>
+              <h3>Your next project</h3>
+              <p>Ideas: a design competition, a hobby build, a club project (e.g. Formula SAE), or an internship deliverable.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="wrap grid-2">
+        <header class="section__head">
+          <p class="eyebrow mono">03 / Experience</p>
+          <h2>Work &amp; education</h2>
+        </header>
+        <ol class="timeline">
+          <!-- EDIT ME: add internships / vacation work here, newest first -->
+          <li class="timeline__item timeline__item--empty">
+            <p class="mono timeline__when">[Dates]</p>
+            <h3>[Internship / Engineering role]</h3>
+            <p class="timeline__org">[Company] · [Location]</p>
+            <p>Space reserved for engineering work experience — replace this block when you have it.</p>
+          </li>
+          <li class="timeline__item">
+            <p class="mono timeline__when">[Month 2024] — Present · 2 yrs</p>
+            <h3>Team Member</h3>
+            <p class="timeline__org">Coles Supermarkets · [Store], Melbourne</p>
+            <ul>
+              <li>Delivered consistent, safe work in a high-volume retail environment with strict WHS procedures.</li>
+              <li>Worked to tight time targets on stock replenishment and shift handovers.</li>
+              <li>Communicated with customers and team members of all backgrounds; trusted with [responsibility, e.g. training new starters / opening &amp; closing].</li>
+            </ul>
+          </li>
+          <li class="timeline__item">
+            <p class="mono timeline__when">[Start year] — Dec 2026</p>
+            <h3>Bachelor of Engineering (Mechanical) (Honours)</h3>
+            <p class="timeline__org">RMIT University · Melbourne</p>
+            <p>Capstone: closed-loop PIV flow rig with CFD validation. <span class="todo">[GPA / WAM if strong, relevant awards]</span></p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow mono">04 / Skills</p>
+          <h2>Toolkit</h2>
+        </header>
+        <div class="skills">
+          <div class="skill-card">
+            <h3 class="mono">Simulation &amp; analysis</h3>
+            <ul><li>ANSYS Fluent (CFD)</li><li>ANSYS Mechanical (FEA)</li><li>MATLAB</li><li>Simulink</li><li>NREL SAM</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="mono">Design &amp; CAD</h3>
+            <ul><li>SolidWorks</li><li>Engineering drawings / GD&amp;T</li><li>Design for manufacture</li><li>[Fusion 360 / Inventor?]</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="mono">Controls &amp; software</h3>
+            <ul><li>ROS2</li><li>Python</li><li>PID control</li><li>Linux</li><li>[Arduino / C++?]</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="mono">Experimental</h3>
+            <ul><li>Particle image velocimetry</li><li>Rig design &amp; build</li><li>Data processing</li><li>Uncertainty analysis</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="mono">Professional</h3>
+            <ul><li>Team project delivery</li><li>Technical reports</li><li>WHS awareness</li><li>Customer communication</li></ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="mono">Credentials</h3>
+            <ul><li>Full driver's licence <span class="todo">[confirm]</span></li><li>Australian citizen / PR <span class="todo">[confirm]</span></li><li>[First aid / White Card?]</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CV ============ -->
+    <section class="section" id="cv">
+      <div class="wrap cv-band">
+        <div>
+          <p class="eyebrow mono">05 / CV</p>
+          <h2>One page. Everything relevant.</h2>
+          <p class="section__lede">Education, projects, experience and skills in a recruiter-friendly format.</p>
+        </div>
+        <div class="cv-band__actions">
+          <a href="assets/docs/Jack-Beckett-CV.pdf" class="btn" download>Download CV (PDF)</a>
+          <a href="cv.html" class="btn btn--ghost">View online</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--alt" id="contact">
+      <div class="wrap contact">
+        <p class="eyebrow mono">06 / Contact</p>
+        <h2>Let's talk.</h2>
+        <p class="section__lede">Hiring graduates for 2027? I'd love to hear from you.</p>
+        <div class="contact__row">
+          <a class="contact__email" href="mailto:jjackbeckett@gmail.com">jjackbeckett@gmail.com</a>
+          <button class="btn btn--ghost btn--sm copy" data-copy="jjackbeckett@gmail.com">Copy</button>
+        </div>
+        <ul class="contact__links mono">
+          <!-- EDIT ME: add your real LinkedIn / GitHub URLs -->
+          <li><a href="https://www.linkedin.com/in/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="https://github.com/juckets" target="_blank" rel="noopener">GitHub ↗</a></li>
+          <li>Melbourne, VIC</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner mono">
+      <span>© <span id="year">2026</span> Jack Beckett</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

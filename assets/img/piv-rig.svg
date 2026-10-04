@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="JetBrains Mono, monospace"><defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1a2029" stroke-width="1"/></pattern></defs><rect width="800" height="500" fill="#0d1116"/><rect width="800" height="500" fill="url(#g)"/>
+<g fill="none" stroke="#8b95a3" stroke-width="2">
+<rect x="60" y="320" width="120" height="80" rx="6"/>
+<path d="M180 360 H260"/><circle cx="290" cy="360" r="30"/><path d="M320 360 H360 V140 H420"/>
+<path d="M420 120 C 520 120, 500 220, 600 220 C 680 220, 680 160, 720 160" stroke="#ff8a3d" stroke-width="3"/>
+<path d="M420 160 C 500 160, 480 260, 600 260 C 660 260, 680 200, 720 200" stroke="#ff8a3d" stroke-width="3"/>
+<path d="M720 180 H760 V430 H120 V400"/>
+</g>
+<path d="M505 158 q10 18 0 36 M520 165 q-10 15 0 30" fill="#ff8a3d" opacity=".5"/>
+<g stroke="#4fc3f7" stroke-width="1.5" opacity=".8"><path d="M560 60 L520 180"/><path d="M560 60 L600 180"/><path d="M520 180 H600" stroke-dasharray="4 4"/></g>
+<rect x="540" y="36" width="40" height="24" fill="none" stroke="#4fc3f7"/>
+<rect x="640" y="300" width="70" height="44" rx="4" fill="none" stroke="#4fc3f7"/><circle cx="675" cy="322" r="10" fill="none" stroke="#4fc3f7"/>
+<path d="M675 300 L585 225" stroke="#4fc3f7" stroke-dasharray="3 5"/>
+<g font-size="13" fill="#c4cad3"><text x="72" y="300">RESERVOIR</text><text x="258" y="310">PUMP</text><text x="430" y="100">S-BEND TEST SECTION</text><text x="490" y="30">LASER SHEET</text><text x="634" y="364">CAMERA</text><text x="470" y="290" fill="#ff8a3d">STENOSIS INSERT</text></g>
+<text x="24" y="476" font-size="12" fill="#5b6574">PLACEHOLDER — replace with project photo / render</text></svg>
