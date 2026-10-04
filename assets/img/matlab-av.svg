@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="JetBrains Mono, monospace"><defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1a2029" stroke-width="1"/></pattern></defs><rect width="800" height="500" fill="#0d1116"/><rect width="800" height="500" fill="url(#g)"/>
+<g fill="none" stroke="#3a4350" stroke-width="2"><path d="M60 80 H740 M60 260 H740" stroke-dasharray="14 10"/></g>
+<path d="M60 170 H300 C 360 170, 360 110, 420 110 C 480 110, 480 170, 560 170 H620 C 660 170, 670 230, 670 300 V380" fill="none" stroke="#ff8a3d" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round"/>
+<rect x="380" y="150" width="60" height="44" rx="4" fill="#3a1d1d" stroke="#e05555" stroke-width="2"/><text x="370" y="220" font-size="12" fill="#e05555">OBSTACLE</text>
+<circle cx="410" cy="172" r="70" fill="none" stroke="#e05555" stroke-dasharray="3 5" opacity=".6"/>
+<g fill="none" stroke="#8b95a3" stroke-width="2"><path d="M600 300 V440 M740 300 V440 M600 440 H740"/></g>
+<text x="618" y="465" font-size="12" fill="#c4cad3">PARKING BAY</text>
+<g transform="translate(120 170)"><rect x="-30" y="-16" width="60" height="32" rx="6" fill="#151a21" stroke="#4fc3f7" stroke-width="2.5"/><path d="M30 -16 L60 -40 M30 16 L60 40" stroke="#4fc3f7" opacity=".5"/></g>
+<g transform="translate(670 395) rotate(90)"><rect x="-30" y="-16" width="60" height="32" rx="6" fill="none" stroke="#4fc3f7" stroke-width="2" stroke-dasharray="4 3"/></g>
+<g font-size="13" fill="#c4cad3"><text x="60" y="60">LINE TRACKING</text><text x="400" y="60">OBSTACLE AVOIDANCE</text><text x="560" y="290" fill="#ff8a3d">SMART PARKING</text></g>
+<text x="24" y="476" font-size="12" fill="#5b6574">PLACEHOLDER — replace with project photo / render</text></svg>

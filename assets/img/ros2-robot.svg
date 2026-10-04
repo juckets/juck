@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="JetBrains Mono, monospace"><defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1a2029" stroke-width="1"/></pattern></defs><rect width="800" height="500" fill="#0d1116"/><rect width="800" height="500" fill="url(#g)"/>
+<path d="M-10 420 C 150 420, 200 300, 340 300 S 520 140, 820 160" fill="none" stroke="#2a313b" stroke-width="22"/>
+<path d="M-10 420 C 150 420, 200 300, 340 300 S 520 140, 820 160" fill="none" stroke="#e6e9ee" stroke-width="4"/>
+<g transform="translate(330 270) rotate(-22)"><rect x="-50" y="-34" width="100" height="68" rx="10" fill="#151a21" stroke="#ff8a3d" stroke-width="2.5"/><rect x="-44" y="-46" width="30" height="12" rx="3" fill="#8b95a3"/><rect x="-44" y="34" width="30" height="12" rx="3" fill="#8b95a3"/><g fill="#4fc3f7"><circle cx="52" cy="-14" r="4"/><circle cx="56" cy="0" r="4"/><circle cx="52" cy="14" r="4"/></g></g>
+<g font-size="13" fill="#c4cad3">
+<rect x="420" y="320" width="340" height="120" rx="8" fill="#151a21" stroke="#232a33"/>
+<text x="440" y="348" fill="#ff8a3d">/line_sensor → /pid_node → /cmd_vel</text>
+<text x="440" y="378">e(t) = x_line − x_centre</text>
+<text x="440" y="404">u(t) = Kp·e + Ki·∫e dt + Kd·de/dt</text>
+<text x="440" y="428" fill="#5b6574">ROS2 · Python · rclpy</text>
+</g>
+<text x="24" y="476" font-size="12" fill="#5b6574">PLACEHOLDER — replace with project photo / render</text></svg>
